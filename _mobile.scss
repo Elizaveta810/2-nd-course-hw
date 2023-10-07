@@ -1,0 +1,103 @@
+@media (max-width: 500px) {
+
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+.header {
+  background-position: 31%;
+  display: flex;
+  justify-content: center;
+  height: 735px;
+  text-align: center;
+  &__inform {
+    align-items: center;
+    
+    
+    
+  }
+  &__title {
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 343px;
+    padding-bottom: 32.95px;
+    padding-top: 238px;
+  }
+
+  &__text {
+    width: 343px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  &__button {
+    margin-top: 32.95px;
+    text-align: center;
+   
+  }
+
+ 
+}
+
+.games {
+  padding-top: 128px;
+  padding-bottom: 128px;
+  &__item-text {
+    bottom: 32px;
+    top: unset;
+    left: 16px;
+  }
+}
+
+
+
+//Игра - Времена года
+
+.games {
+
+  &__seasons {
+    display: flex;
+    justify-content: center;
+    gap:unset;
+  }
+
+  &__inform {
+    padding-top: unset ;
+    padding-bottom: unset;
+    padding-top: 51px;
+    align-items: center;
+    
+  }
+
+  &__title {
+    font-size: 32px;
+    
+  }
+
+  &__text {
+    font-size: 14px;
+    text-align: center;
+    width: 343px;
+    
+  }
+
+  &__logo {
+    padding-top: 64px;
+    margin-bottom: 85px;
+
+  }
+
+  &__logo_svg-seasons{
+    max-width: 100%;
+  }
+
+}
+
+
+}
