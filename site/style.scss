@@ -137,8 +137,20 @@ body {
         align-content: center;
         overflow: auto;
         justify-content: space-between;
-        gap: 135px;
-       
+        gap: 135px;      
+
+    }
+
+    &__words {
+        background-color: black;   
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        align-content: center;
+        overflow: auto;
+        justify-content: space-between;
+        gap: 135px;      
+
 
     }
 

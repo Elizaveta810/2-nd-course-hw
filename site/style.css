@@ -130,6 +130,7 @@ body {
   justify-content: space-between;
   gap: 135px;
 }
+
 .games__inform {
   padding-top: 282px;
   padding-bottom: 282px;
@@ -226,6 +227,7 @@ body {
     justify-content: center;
     gap: unset;
   }
+
   .games__inform {
     padding-top: unset;
     padding-bottom: unset;
@@ -247,4 +249,5 @@ body {
   .games__logo_svg-seasons {
     max-width: 100%;
   }
+ 
 }/*# sourceMappingURL=style.css.map */
