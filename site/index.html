@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap"rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header center">
+       <div class="container">
+        <div class="header__inform">
+            <h1 class="header__title">Добро пожаловать <br>на мой сайт !</h1>
+            <p class="header__text">Вам предстоит пройти несколько увлекательных игр. Если готов нажимай <span class="header__text_bolt">поехали</span> и <span class="header__text_bolt">приступай</span></p>
+            <a class="header__button" href="#games__cart">Поехали!</a>
+        </div>
+       </div>
+    </header>
+    <section class="games center" id="games__cart">
+        <div class="games__cart" >
+           <a href="#games__seasons" class="games__item">
+                <img class="games__item_1" src="img/games_1.jpg" alt="">
+                <p class="games__item-text" >Игра 1</p>    
+            </a>
+            <a href="#games__words" class="games__item">
+                <img class="games__item_2" src="img/games_2.jpg" alt="">
+                <p class="games__item-text" >Игра 2</p>  
+            </a>
+            <a href="#" class="games__item">
+                <img class="games__item_3" src="img/games_3.jpg" alt="">
+                <p class="games__item-text" >Игра 3</p>  
+            </a>
+        </div>
+    </section>
+    <section class="games__seasons center" id="games__seasons">
+        <div class="games__inform">
+          <h2 class="games__title">Времена года!</h2>
+          <p class="games__text">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени года он относится</p>
+          <a onclick="seasons()" class="games__button" href="#" >Играть!</a>
+        </div>
+         <div class="games__logo">
+            <img src="img/games_logo.svg" alt="" class="games__logo_svg-seasons">
+         </div>
+    </section>
+
+    <section class="games__seasons center" id="games__words">
+        <div class="games__logo">
+            <img src="img/games_logo_words.svg" alt="" class="games__logo_svg-words">
+         </div>
+        <div class="games__inform">
+          <h2 class="games__title">Запомни слова!</h2>
+          <p class="games__text">При нажатии на кнопку играть, вы увидите несколько слов, которые вам необходимо запомнить.</p>
+          <a onclick="words()" class="games__button" href="#" >Играть!</a>
+        </div>
+         
+    </section>
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
